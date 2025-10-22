@@ -1,0 +1,19 @@
+[project]
+name = "cat_dog"
+version = "0.1.0"
+description = "Colab → Cursor migration"
+requires-python = ">=3.10"   # Colab 2024-2025 uses 3.10
+dependencies = [
+    "numpy",
+    "pandas",
+    "tensorflow",
+    "keras",
+    "matplotlib",
+    "jupyter",
+    "opencv-python"
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
